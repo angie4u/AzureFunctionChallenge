@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "MyAccount_COSMOSDB": "AccountEndpoint=https://eunksql.documents.azure.com:443/;AccountKey=Gp3yXEoLp06mB2pNVUohnbzFrk0iFUm7RA6Qb4I4usC55P6t69zRKvEAA7YtPqSNlWVxg2ezs0qm11z4c6DYmw==;",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true"
+  }
+}

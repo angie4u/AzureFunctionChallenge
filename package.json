@@ -1,0 +1,26 @@
+{
+  "name": "AzureFunctionChallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angie4u/AzureFunctionChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angie4u/AzureFunctionChallenge/issues"
+  },
+  "homepage": "https://github.com/angie4u/AzureFunctionChallenge#readme",
+  "dependencies": {
+    "documentdb": "^1.14.5",
+    "dotenv-extended": "^2.2.0",
+    "node-fetch": "^2.2.0",
+    "uuid": "^3.3.2"
+  }
+}

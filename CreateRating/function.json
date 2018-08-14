@@ -1,0 +1,29 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "iceCreamRate",
+      "type": "cosmosDB",
+      "databaseName": "icecream",
+      "collectionName": "IceCreamShop",
+      "createIfNotExists": true,
+      "connectionStringSetting": "MyAccount_COSMOSDB",     
+      "direction": "out"
+    }
+  ]
+}
