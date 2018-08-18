@@ -1,12 +1,11 @@
 {
   "version": "0.2.0",
-  "configurations": [
+  "configurations": [    
     {
-      "name": "Launch Program",
       "type": "node",
-      "request": "launch",
-      "port": 0,
-      "processId": null
+      "request": "attach",
+      "name": "Attach by Process ID",
+      "processId": "${command:PickProcess}"
     }
   ]
 }
